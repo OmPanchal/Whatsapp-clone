@@ -1,0 +1,117 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+}
+
+.sidebar__search {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 39px;
+  padding: 10px;
+}
+
+.sidebar__searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 35px;
+  border-radius: 999px;
+}
+
+.sidebar__searchContainer > input {
+  width: 90%;
+  background-color: transparent;
+  padding: 5px;
+  border: transparent;
+  outline-color: transparent;
+}
+
+.sidebar__searchContainer > input:focus {
+  outline: transparent;
+  border: none;
+}
+
+.sidebar__searchContainer > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+  padding-right: 5px;
+}
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid lightgray;
+  padding: 20px;
+}
+
+.sidebar__headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vh;
+}
+
+.sidebar__headerRight > .MuiSvgIcon-root {
+  margin-right: 2vh;
+  font-size: 24px !important;
+}
+
+.sidebar__chats {
+  position: relative;
+  background-color: white;
+  overflow: auto;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar__chats > .MuiFab-root {
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 15px;
+  left: 90%;
+  bottom: 5%;
+  background-color: #25d366;
+}
+
+.sidebar__chats > .MuiFab-root:hover {
+  background-color: #2bc563;
+}
+
+.sidebar__chats > .MuiFab-root {
+  color: white;
+}
+
+.dialog__content {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.dialog__content > form {
+  flex: 0.9;
+}
+
+.dialog__content > form > .MuiInput-root {
+  flex: 1;
+}
+
+.dialog__content > .MuiAvatar-root {
+  border: 1px solid lightgray;
+}
+
+.dialog__content > .MuiIconButton-root {
+  background-color: #25d366;
+}
+
+.dialog__content > .MuiIconButton-root:hover {
+  background-color: #2bc563;
+  color: #e8f5e9;
+}
+
+.popover__logoutButton {
+}

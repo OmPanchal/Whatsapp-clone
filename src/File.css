@@ -1,0 +1,45 @@
+.file__input {
+  display: none;
+}
+
+.image__buttons > .MuiButton-root {
+  background-color: #25d366;
+  margin-left: 15px;
+  color: white;
+}
+
+.image__buttons {
+  border-top: 1px solid #b7b7b7;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.image__buttons > .MuiButton-root:hover {
+  background-color: #2bc563;
+  color: white;
+}
+
+.img {
+  width: 100%;
+  height: 300px;
+}
+
+.img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image__buttons > .MuiInputBase-root {
+  flex: 1;
+}
+
+.image__buttons > .MuiInput-underline:after {
+  border-bottom: 2px solid #25d366 !important;
+}
