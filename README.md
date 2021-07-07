@@ -1,6 +1,5 @@
 ### About the App
 
-- This Whatsapp Clone was made by following a tutorial -> (Tutorial: https://www.youtube.com/watch?v=pUxrDcITyjg)
 - React was used for the frontend and Firebase was used for the backend
 - For this App you are not going to get 1 to 1 chatting. Instead you will have multiple chatrooms that will be visible to everyone.
 
