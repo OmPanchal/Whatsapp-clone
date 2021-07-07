@@ -18,3 +18,8 @@
 - "react-scripts": "4.0.3",
 - "web-vitals": "^1.1.1"
 
+### Features 
+
+- Google Authentication
+- Upload Pictures
+- View Uploaded Pictures 
